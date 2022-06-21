@@ -1,29 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="icon" href="./favicon.ico" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Mikhail Perov</title>
+    <title>Mikhail Perov</title>
 
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <div class="wrapper">
-    <header class="header">
-      The header
-    </header>
-    <main class="content">
-      <div class="block">
-        <h1>Hi! My name is Mikhail Perov</h1>
-        <h2>I'm a frontend developer</h2>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="sass/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="author">
+        <h1 class="author__name">Mikhail Perov</h1>
       </div>
-    </main>
-    <footer class="footer">
-      The footer
-    </footer>
-  </div>
-</body>
+      <main class="content">
+        <aside class="sidebar">
+          <div class="sidebar__item">
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML / CSS / SASS</li>
+              <li>JavaScript / TypeScript</li>
+              <li>React / Redux</li>
+            </ul>
+          </div>
+          <div class="sidebar__item">
+            <h3>Contacts</h3>
+            <ul>
+              <li>Location: Russia, Ivanovo.</li>
+              <li>Phone: <a href="tel:+79206746506">+7 920 674 65 06</a></li>
+              <li>
+                Email: <a href="mailto:anbudev@yandex.ru">anbudev@yandex.ru</a>
+              </li>
+              <li>
+                <a href="https://t.me/mikhail_perov" target="_blank"
+                  >Telegram</a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/mixarr" target="_blank">GitHub</a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <div class="description">
+          <div class="education">
+            <h3>Education</h3>
+            <p>Last yaer, I making things for web.</p>
+          </div>
+          <div class="my-work">
+            <h3>My work</h3>
+            <div class="my-work__list">
+              <div class="my-work__item">
+                <a
+                  href="https://github.com/mixarr/react-todo-js"
+                  target="_blank"
+                >
+                  TodoList | React | JS
+                </a>
+              </div>
+              <div class="my-work__item">Soon</div>
+              <div class="my-work__item">Soon</div>
+              <div class="my-work__item">Soon</div>
+              <div class="my-work__item">Soon</div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
